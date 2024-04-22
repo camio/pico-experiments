@@ -3,6 +3,8 @@
 #include <pico/time.h>
 #include <ssd/ssd.hpp>
 
+#include <ranges>
+
 int main() {
   ssd::Display display{
       {.segments = {0, 1, 2, 3, 4, 5, 6}, .digits = {7, 8, 9, 10}}, 10};

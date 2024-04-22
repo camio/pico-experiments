@@ -1,5 +1,12 @@
 #include <ssd/ssd.hpp>
 
+#include <hardware/gpio.h>
+#include <pico/stdlib.h>
+
+#include <algorithm>
+#include <cassert>
+#include <ranges>
+
 namespace ssd {
 
 static const int max_gpio_value = 29;

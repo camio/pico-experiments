@@ -1,16 +1,12 @@
 #ifndef SSD_HPP_
 #define SSD_HPP_
 
-#include <algorithm>
+#include <pico/time.h> // repeating_timer_t
+
 #include <array>
 #include <bitset>
-#include <cassert>
 #include <cstdint>
-#include <ranges>
-
-#include <hardware/gpio.h>
-#include <pico/stdlib.h>
-#include <pico/time.h>
+#include <optional>
 
 namespace ssd {
 
