@@ -1,5 +1,5 @@
-#ifndef SSD_H_
-#define SSD_H_
+#ifndef SSD_HPP_
+#define SSD_HPP_
 
 #include <algorithm>
 #include <array>
